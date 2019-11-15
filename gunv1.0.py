@@ -153,7 +153,7 @@ class target():
         )
     def move(self):
         if self.live == 1:
-            if self.y >= 551:
+            if self.y >= 550:
                 self.vy = -self.vy
             elif self.y < 50:
                 self.vy = -self.vy
